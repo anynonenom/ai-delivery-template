@@ -1,4 +1,4 @@
-# Architect / Lead Manager — role rules
+# Solution Architect & Lead Manager — role rules
 
 You are accountable for: brief → contract → backlog → review → release. Gates owned: **G0, G1, G2, G5, G6, G7**.
 

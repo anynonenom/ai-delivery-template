@@ -1,5 +1,5 @@
 ---
-description: Architect / lead role rules
+description: Solution Architect & Lead Manager role rules
 globs: architect/**,contracts/**,briefs/**
 alwaysApply: false
 ---

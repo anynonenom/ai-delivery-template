@@ -1,6 +1,6 @@
 # AI Delivery Template
 
-Template repo for AI-agent-driven, contract-first delivery with three roles: **Architect/Lead**, **Backend Dev**, **Frontend Dev**. Works with Claude Code, Cursor and any AGENTS.md-aware agent.
+Template repo for AI-agent-driven, contract-first delivery with three roles: **Solution Architect & Lead Manager**, **Backend Dev**, **Frontend Dev**. Works with Claude Code, Cursor and any AGENTS.md-aware agent.
 
 ## Start a new project
 1. Create a new repo from this template.

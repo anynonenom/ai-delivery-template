@@ -1,6 +1,6 @@
 # WORKFLOW — AI-assisted, contract-first delivery
 
-Corrected version of the original "Tech Model Process Workflow". Three human roles (Architect/Lead, Backend Dev, Frontend Dev), each using AI agents as a *tool*. The human in the lane is accountable for the agent's output.
+Corrected version of the original "Tech Model Process Workflow". Three human roles (Solution Architect & Lead Manager, Backend Dev, Frontend Dev), each using AI agents as a *tool*. The human in the lane is accountable for the agent's output. "Architect" below is shorthand for the Solution Architect & Lead Manager.
 
 ## Gates at a glance
 
@@ -19,7 +19,7 @@ Corrected version of the original "Tech Model Process Workflow". Three human rol
 
 ```mermaid
 flowchart TB
-  subgraph ARCH[Architect / Lead]
+  subgraph ARCH[Solution Architect & Lead Manager]
     A1[Receive brief] --> A2[Clarify and get client sign-off]
     A2 --> G0{G0 Brief approved?}
     G0 -- no --> A2
