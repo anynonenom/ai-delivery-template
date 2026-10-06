@@ -15,7 +15,7 @@ Template repo for AI-agent-driven, contract-first delivery with three roles: **S
 | `architect/` | Architect rules, backlog, review + release checklists, ADRs |
 | `backend/` · `frontend/` | Role rules + task mirrors (+ `frontend/design/handoff.md`) |
 | `contracts/` | `openapi.yaml` + `CHANGELOG.md` (only the Architect edits) |
-| `briefs/` | Client briefs |
+| `briefs/` | Client briefs (`_TEMPLATE/` to copy, `_EXAMPLE/` for a filled-in sample) |
 | `handoffs/` | Templates for all cross-role messages (specs, staging-live, issues, CCR, deviations, questions) |
 | `.github/` | PR template, CODEOWNERS, CI gates |
 
