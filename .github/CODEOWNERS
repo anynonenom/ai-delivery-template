@@ -1,0 +1,9 @@
+# Replace with real GitHub handles when the repo is created.
+*                       @architect-handle
+/contracts/             @architect-handle
+/architect/             @architect-handle
+/briefs/                @architect-handle
+/AGENTS.md              @architect-handle
+/WORKFLOW.md            @architect-handle
+/backend/               @backend-dev-handle
+/frontend/              @frontend-dev-handle

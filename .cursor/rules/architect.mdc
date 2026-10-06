@@ -1,0 +1,7 @@
+---
+description: Architect / lead role rules
+globs: architect/**,contracts/**,briefs/**
+alwaysApply: false
+---
+
+Read and follow `architect/AGENTS.md`. Contract changes require a Contract Change Request and a CHANGELOG entry with a version bump.

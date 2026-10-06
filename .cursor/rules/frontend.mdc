@@ -1,0 +1,7 @@
+---
+description: Frontend role rules
+globs: frontend/**
+alwaysApply: false
+---
+
+Read and follow `frontend/AGENTS.md`. Build against MSW mocks generated from `contracts/openapi.yaml`. Use design tokens from `frontend/design/handoff.md`; never hardcode colors or spacing.

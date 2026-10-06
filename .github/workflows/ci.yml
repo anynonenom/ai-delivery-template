@@ -1,0 +1,38 @@
+# G3 gates. Contract lint runs out of the box; wire backend/frontend jobs to your stack per project.
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  contract-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npx --yes @stoplight/spectral-cli lint contracts/openapi.yaml
+
+  backend:
+    if: hashFiles('backend/package.json', 'backend/pyproject.toml') != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # TODO per project: install, lint, type-check, unit tests
+      # TODO: start API, then run contract tests (e.g. schemathesis run contracts/openapi.yaml --url http://localhost:PORT)
+      # TODO: dependency + SAST scan
+      - run: echo "wire backend gates"
+
+  frontend:
+    if: hashFiles('frontend/package.json') != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # TODO per project: install, lint, type-check, unit tests, build, E2E on mocks
+      # TODO: dependency scan; fail if MSW is in the production bundle
+      - run: echo "wire frontend gates"
+
+  # deploy-staging: needs [contract-lint, backend]; deploys the PR branch to staging only after gates are green.

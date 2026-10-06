@@ -1,0 +1,5 @@
+extends: ["spectral:oas"]
+rules:
+  operation-operationId: error
+  operation-description: off
+  oas3-valid-media-example: error

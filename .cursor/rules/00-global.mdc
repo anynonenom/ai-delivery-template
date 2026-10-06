@@ -1,0 +1,10 @@
+---
+description: Global project rules — always applied
+alwaysApply: true
+---
+
+Follow `AGENTS.md` at the repo root (single source of truth) and `WORKFLOW.md`.
+Then follow the role file for the folder you are editing:
+- `architect/AGENTS.md`, `backend/AGENTS.md`, `frontend/AGENTS.md`.
+
+Hard rules: OpenAPI contract is the source of truth; no invented requirements; one ticket per branch; never commit to main; max 3 auto-fix attempts then escalate; report any deviation with a Deviation Report in `handoffs/`.

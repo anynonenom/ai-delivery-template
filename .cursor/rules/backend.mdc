@@ -1,0 +1,7 @@
+---
+description: Backend role rules
+globs: backend/**
+alwaysApply: false
+---
+
+Read and follow `backend/AGENTS.md`. Implement only what `contracts/openapi.yaml` defines. Contract tests must pass before any staging deploy.
